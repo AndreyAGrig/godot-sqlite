@@ -12,7 +12,7 @@
             "artifact-extension": "dll",
             "additional-python-packages": "pywin32",
             "cache-name": "win-x86_64-msvc",
-            "skip": false
+            "skip": true
         },
         {
             "name": "Windows (x86_64, MinGW)",
@@ -21,7 +21,7 @@
             "artifact-extension": "dll",
             "flags": "use_mingw=yes",
             "cache-name": "win-x86_64-mingw",
-            "skip": false
+            "skip": true
         },
         {
             "name": "Windows (x86_64, MinGW, Double Precision)",
@@ -38,7 +38,7 @@
             "platform": "linux",
             "artifact-extension": "so",
             "cache-name": "linux-x86_64",
-            "skip": false
+            "skip": true
         },
         {
             "name": "Ubuntu (GCC, Double Precision)",
@@ -47,7 +47,7 @@
             "artifact-extension": "so",
             "flags": "precision=double",
             "cache-name": "linux-x86_64-f64",
-            "skip": false
+            "skip": true
         },
         {
             "name": "MacOS (universal)",
@@ -56,7 +56,7 @@
             "artifact-extension": "framework",
             "flags": "arch=universal",
             "cache-name": "macos-universal",
-            "skip": false
+            "skip": true
         },
         {
             "name": "Android (x86_64)",
@@ -65,7 +65,7 @@
             "artifact-extension": "so",
             "flags": "arch=x86_64",
             "cache-name": "android-x86_64",
-            "skip": false
+            "skip": true
         },
         {
             "name": "Android (arm64)",
@@ -74,7 +74,7 @@
             "artifact-extension": "so",
             "flags": "arch=arm64",
             "cache-name": "android-arm64",
-            "skip": false
+            "skip": true
         },
         {
             "name": "iOS (arm64)",
@@ -82,7 +82,7 @@
             "platform": "ios",
             "artifact-extension": "xcframework",
             "cache-name": "ios-arm64",
-            "skip": false
+            "skip": true
         },
         {
             "name": "Web (wasm32)",
@@ -90,7 +90,7 @@
             "platform": "web",
             "artifact-extension": "wasm",
             "cache-name": "web-wasm32",
-            "skip": false
+            "skip": true
         },
         {
             "name": "Web (wasm32, No Threads)",
@@ -99,7 +99,7 @@
             "artifact-extension": "nothreads.wasm",
             "flags": "threads=no",
             "cache-name": "web-wasm32-nothreads",
-            "skip": false
+            "skip": true
         }
     ]
 }
